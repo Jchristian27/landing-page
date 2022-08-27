@@ -137,12 +137,17 @@ button {
   color: white;
   height: 30px;
   width: 100px;
-  border: 1px solid #3882F6;
+  border: 2px solid #3882F6;
   border-radius: 12px;
   padding: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: bold;
+}
+
+#white-border {
+  border: 2px solid white;
 }
 
 ul {
