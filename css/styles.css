@@ -1,0 +1,103 @@
+.header {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+.header-links {
+  font-size: 18px;
+
+}
+
+.section-one {
+  background-color: #1F2937;
+  border: 1px solid red;
+}
+
+.intro-card {
+  color: #F9FAF8;
+}
+
+#hero-subtext {
+  color: #E5E7EB
+}
+
+.section-two {
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.cards-intro-title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937
+}
+
+.section-three {
+  background-color: #E5E7EB;
+  border: 1px solid red;
+}
+
+.quote {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.author {
+  color: #1F2937;
+}
+
+.section-four {
+  background-color: #3882F6;
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.sign-up-container {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.sign-up-title {
+  font-size: 18px;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+button {
+  background-color: #3882F6;
+  color: white;
+  border-radius: 40%;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
