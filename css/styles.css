@@ -1,5 +1,6 @@
 body {
   font-family: Arial, "sans-serif";
+  margin: 0;
 }
 
 .header {
@@ -7,7 +8,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
+  padding-top: 10px;
 }
 
 .logo {
@@ -19,21 +20,39 @@ body {
 
 .header-links {
   font-size: 18px;
-  margin-right: 50px;
+  margin-right: 100px;
 }
 
 .section-one {
   background-color: #1F2937;
-  height: 500px;
+  height: 450px;
   width: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  border: 1px solid red;
+  padding: 50px;
 }
 
 .intro-card {
   color: #F9FAF8;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-right: 50px;
+  max-width: 500px;
+  height: 400px;
+  width: auto;
+}
+
+.intro-img {
+  margin-right: 100px;
+}
+
+#hero-text {
+  font-size: 48px;
+  flex-wrap: row wrap;
+  margin: 0;
 }
 
 #hero-subtext {
@@ -43,7 +62,7 @@ body {
 .section-two {
   display: flex;
   justify-content: center;
-  border: 1px solid red;
+  align-items: center;
 }
 
 .cards-intro-title {
@@ -58,9 +77,14 @@ body {
   display: flex;
 }
 
+.card {
+  border: 2px solid #3882F6;
+  justify-content: center;
+}
+
 .section-three {
   background-color: #E5E7EB;
-  border: 1px solid red;
+  justify-content: center;
 }
 
 .quote {
@@ -78,7 +102,6 @@ body {
   background-color: #3882F6;
   display: flex;
   justify-content: center;
-  border: 1px solid red;
 }
 
 .sign-up-container {
@@ -97,20 +120,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
+  padding: 25px 0 25px 0;
 }
 
 button {
   background-color: #3882F6;
   color: white;
-  border-radius: 40%;
-  padding: 10px;
+  height: 30px;
+  width: 100px;
+  border: 1px solid #3882F6;
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 ul {
   list-style: none;
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
 
 a {
@@ -118,6 +147,7 @@ a {
   color: #E5E7EB;
 }
 
-img {
+/*
+* {
   border: 1px solid red;
 }
