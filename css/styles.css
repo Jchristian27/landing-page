@@ -18,6 +18,10 @@ body {
   margin-left: 50px;
 }
 
+#img-hover:hover {
+  opacity: 0.5;
+}
+
 .header-links {
   font-size: 18px;
   margin-right: 100px;
@@ -47,6 +51,7 @@ body {
 
 .intro-img {
   margin-right: 100px;
+  border-radius: 15px;
 }
 
 #hero-text {
@@ -63,6 +68,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 25px;
 }
 
 .cards-intro-title {
@@ -189,6 +195,10 @@ ul {
 a {
   text-decoration: none;
   color: #E5E7EB;
+}
+
+a:hover {
+  opacity: 0.6;
 }
 
 /*
